@@ -1,0 +1,31 @@
+[package]
+name = "message-bridge-rs"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1.14.0", features = ["full"] }
+mirai_rs = { path = "./mirai_rs" }
+websocket = "0.26.2"
+tokio-tungstenite = "*"
+hyper = { version = "0.14", features = ["full"] }
+serde = "1.0.132"
+serde_json = "1.0"
+
+[dependencies.serenity]
+default-features = false
+features = ["client", "gateway", "rustls_backend", "model"]
+version = "0.10.9"
+
+[dependencies.futures]
+version = "0.3"
+features = ["std"]
+default-features = false
+
+[workspace]
+
+members = [
+    "mirai_rs"
+]

@@ -1,0 +1,87 @@
+{
+  "myDomainName": "https://bridge.rabbitkiller.dev",
+  "qqBot": 3245538509,
+  "setting": {
+    "enableVerify": true,
+    "verifyKey": "INITKEYKPRGCLwL",
+    "enableWebsocket": false,
+    "adapters": [],
+    "adapterSettings": {
+      "http": {
+        "host": "localhost",
+        "port": 8080
+      },
+      "ws": {}
+    }
+  },
+  "discordBot": "781193252094476360",
+  "discordBotToken": "NzgxMTkzMjUyMDk0NDc2MzYw.X76E6Q.lhw0TqBDf-dCEtYIGxv-tiiQoxM",
+  "kaiheilaBot": "2617462594",
+  "kaiheilaBotToken": "1/MTA0ODY=/8njhCtDo7bjxTOb5yxQ+WQ==",
+  "bridges": [
+    {
+      "discord": {
+        "_": "qq互联_en-zh频道",
+        "id": "781546281377071168",
+        "token": "i-RyB2ROavTCSHhuz0pbTGSxWupRWavVRvvNx5pxKEDQT_JBZAXs2P9KayBS8dBwcXf4",
+        "channelID": "779190786771255306"
+      },
+      "qqGroup": 661224869,
+      "kaiheila": {
+        "channelID": ""
+      },
+      "enable": true
+    },
+    {
+      "discord": {
+        "_": "qq互联_ja-zh频道",
+        "id": "781546587784609802",
+        "token": "MXo4d4BiG0ZSJ_dDKrx9MPKapIc3mpRBxMUa4vm9LWlnWRg0hiQpsG9bBhtGJvuxjTYp",
+        "channelID": "779596494860058635"
+      },
+      "qqGroup": 703322549,
+      "kaiheila": {
+        "channelID": ""
+      },
+      "enable": true
+    },
+    {
+      "discord": {
+        "_": "qq互联_editor频道",
+        "id": "844842429047504896",
+        "token": "VCi4wjYEKRJDA2d_IDNvaiuQ8NQ5Ly6DI9Y0xwspob79Uu3se3wI7GpjtwDKrycIaROE",
+        "channelID": "844835198096375868"
+      },
+      "qqGroup": 343934167,
+      "kaiheila": {
+        "channelID": ""
+      },
+      "enable": true
+    },
+    {
+      "discord": {
+        "channelID": "779258705992613888",
+        "id": "882271993410514984",
+        "token": "nlaJxQKnVXV1YChJ_iZxFtKd3YNhyJiDwHiAPzzxiINLr11-QB1w-cQMyhcK5SyQsR6M"
+      },
+      "kaiheila": {
+        "channelID": ""
+      },
+      "enable": true
+    },
+    {
+      "discord": {
+        "channelID": "781347109676384297",
+        "id": "782282707253854328",
+        "token": "89A7nQnBOUrqz9o3b4orizWJNn_CP-F4T3z9ragsAx5k_7oiSPZz2QW0fB2EA9Z9BGsE"
+      },
+      "qqGroup": 518986671,
+      "kaiheila": {
+        "channelID": ""
+      },
+      "enable": true
+    }
+  ],
+  "autoApproveQQGroup": [],
+  "proxy": ""
+}
